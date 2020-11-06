@@ -86,6 +86,11 @@ git diff --name-only | uniq | xargs subl		# Fix conflicts in Sublime Text
 
 git remote add origin #link
 git remote add upstream #link
+git remote set-url --add #name #link
+
+#name can be anything
+#link is your repo
+
 
 Remember to git init to establish directory
 
