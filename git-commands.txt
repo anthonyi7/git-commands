@@ -84,6 +84,11 @@ git merge upstream/development					# Merge original with fork
 
 git diff --name-only | uniq | xargs subl		# Fix conflicts in Sublime Text
 
+git remote add origin #link
+git remote add upstream #link
+
+Remember to git init to establish directory
+
 
 
 ### Importing Patches
